@@ -1,0 +1,38 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap'); */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  --first-color: #0288d1;
+  --second-color: #29b6f6;
+  --third-color: #4fc3f7;
+  --forth-color: #81d4fa;
+  --text-color: #fff;
+  --text-family: Roboto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  padding-top: 6rem;
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  position: relative;
+  /* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>❤️</text></svg>") 8 8, auto; */
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>💉</text></svg>") 8 8, auto;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('assets/body.jpg') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.4;
+  z-index: -1;
+}
+
