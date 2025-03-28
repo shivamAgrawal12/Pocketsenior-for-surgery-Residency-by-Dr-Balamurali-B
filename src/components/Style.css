@@ -317,7 +317,6 @@
   
   @media (max-width: 775px) {
     #home-section {
-      height: 80vh;
       padding: 1.5rem;
     }
   
@@ -1242,6 +1241,9 @@
 }
 
 @media (max-width: 600px) {
+  .chapter-info {
+    width: 96%;
+  }
   .chapter-name {
     font-size: 1.4rem;
   }

@@ -70,7 +70,7 @@ const testimonials = [
       chapter: "Chapter - 3",
       name: "CLASSICAL AND MODIFIED GRAHAM PATCH",
       image: Graham,
-      text: "Ileostomy and colostomy, although having similar technique, etiologies widely differs Considering the technique its broadly comes into two categories as loop and end, but as far as the marking the site is concerned it its similar ",     
+      text: "An emergency procedure which necessitates a proper preop resuscitation, and immediate surgical intervention.",     
       instrument:["Artery Forceps", "Toothed Forceps", "Alley Forceps", "Zerney RETRACTORS", "DAEVERS RETRACTORS", "NEEDLE HOLDER",  "Scissors"],
       procedure:[
                   "Paint and draped with povidone iodine to ensure the aseptic precautions around the surgical site",
