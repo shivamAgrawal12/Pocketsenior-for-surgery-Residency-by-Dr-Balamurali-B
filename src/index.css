@@ -19,8 +19,8 @@ body {
   scroll-behavior: smooth;
   overflow-y: auto;
   position: relative;
-  /* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>❤️</text></svg>") 8 8, auto; */
-  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>💉</text></svg>") 8 8, auto;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>❤️</text></svg>") 8 8, auto;
+  /* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>💉</text></svg>") 8 8, auto; */
 }
 
 body::before {

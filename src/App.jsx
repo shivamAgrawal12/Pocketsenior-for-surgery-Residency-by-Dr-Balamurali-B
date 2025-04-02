@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home"; 
 import About from "./components/About";
@@ -21,7 +21,7 @@ function App() {
     document.addEventListener("copy", handleCopy);
     
     return () => {
-      document.removeEventListener("copy", handleCopy); // Cleanup event listener on unmount
+      document.removeEventListener("copy", handleCopy);
     };
   }, []);
 
