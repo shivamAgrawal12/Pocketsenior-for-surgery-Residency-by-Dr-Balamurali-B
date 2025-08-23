@@ -426,6 +426,15 @@
       font-size: 1.5rem;
     }
   }   
+
+   @media (max-width: 400px) {
+    #home-content {
+      margin: 4% 0;
+    }  
+    #home-title {
+      font-size: 1.6rem;
+    }
+  }  
   
 /********************************************** About *************************************************************/
 #about-section {
