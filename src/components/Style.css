@@ -414,7 +414,7 @@
   @media (max-width: 475px) {
     #home-content {
       width: 98%;
-      margin-top: -20%;
+      margin-bottom: 3%;
     }  
     #home-describe-div {
       width: 80%;
