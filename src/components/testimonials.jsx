@@ -16,25 +16,25 @@ const testimonials = [
       name: "ICD INSERTION",
       image: chest_tube,
       text: "One of the earliest Invasive procedures we face as a first-year resident in surgery is Intercostal Drainage. It is important to know every steps involved and precautions to be followed while doing one.",
-      indication: ["TRAUMATIC ~ PNEUMOTHORAX, HEMOTHORAX", "TUBERCULOUS HYDROTHORAX", "CHYLOTHORAX", "MALIGNANCY"],
-      instrument: ["Artery Forceps (Straight/Curved)", "Toothed Forceps", "Blade size 11/22", "ICD Drain tube size for an average adult 32Fr", "Water sealed Bag", "Elastic adhesive Bandage"],
+      indication: ["Traumatic ~ pneumothorax, hemothorax", "Tuberculous hydrothorax", "Chylothorax", "Malignancy"],
+      instrument: ["Artery forceps (straight/curved)", "Toothed forceps", "Blade size 11/22", "ICD drain tube size for an average adult 32Fr", "Water sealed bag", "Elastic adhesive bandage"],
       procedure: [
                   "Paint and draped with povidone iodine to ensure aseptic precautions",
                   "Position: Supine Recumbent, asking the patient to keep their palm of the hand over the head",
-                  "Site of Insertion: it is important to have the knowledge of site of insertion of chest tube to make it uneventful. As far as the icd insertion is concerned Triangle of safety serves the purpose. The triangle is bounded by *medial: lateral border of pectoralis major muscle *laterally: anterior border of Latissimus dorsi *Superiorly: inferior to axilla. Usually this corresponds to the fifth intercostal space in the midaxillary line. Using the Angle of Louis as landmark second intercostal space can be traced, from which fifth intercostal space is identified. One has to be clear in identifying the angle of louis as often residents confuse it with the sternal notch",
+                  "Site of Insertion: it is important to have the knowledge of site of insertion of chest tube to make it uneventful. As far as the icd insertion is concerned Triangle of safety serves the purpose. The triangle is bounded by (medial: lateral border of pectoralis major muscle), (laterally: anterior border of Latissimus dorsi), Superiorly: inferior to axilla. Usually this corresponds to the fifth intercostal space in the midaxillary line. Using the Angle of Louis as landmark second intercostal space can be traced, from which fifth intercostal space is identified. One has to be clear in identifying the angle of louis as often residents confuse it with the sternal notch",
                   "Preparing the water sealed bag with pouring NS of 200ml / till the line given over the bag. Tube is opened, upper end is fixed with a straight artery forceps and lower end is clamped.",
                   "A horizontal incision / incision perpendicular to the patient axis is given of size 2 to 3 cm in length to go through fascia and intercostal muscle. Little finger tip is used to confirm the plane and depth of dissection. At the level of parietal pleural a gentle guarded force is given to open it up for the tube to be inserted. (This can be felt as feeling of a giveaway through a A4 paper)",
                   "The tube whose lower end is clamped, directed towards the opening made into the thoracic cavity. At this point depending on the aetiology air/fluid/blood will pass along the tube. The lower end is now connected to the water seal bag to look for the bubble coming out seen as swinging action up and down along the inspiration and expiration of patient.",
                   "Tube is fixed with a purse string suture and tightly plastered with bandage after proper antiseptic dressing"
                 ],
       precaution: [
-                    "SPO2 OF THE PATIENT HAS TO BE MONITORED THROUGHOUT THE PROCEDURE AND PATIENT IS KEPT UNDER THE OXYGEN SUPPORT",
-                    "LOWER END OF THE TUBE SHOULD BE ENSURED CLAMPING",
-                    "WHILE INTRODUCING THE TUBE AFTER DISSECTON IT SHOULD BE ENSURED THAT TUBE DID NOT GO TO THE SUBCUTANEOUS PLANE, ALSO THE EYE OPENING OF TUBE SHOULD BE MADE SURE WITHIN THE THORACIC CAVITY",
-                    "WHILE SUTURING THE POSITION OF THE TUBE SHOULD NOT GO DOWN AS USUALLY THE ASSISTANT PULLS IT DOWN",
-                    "IN HEMOTHORAX, IF OUTPUT >1500 ML IS INDICATION FOR THORACOTOMY ",
-                    "POST TUBE INSERTION CHEST XRAY PA VIEW HAS TO BE DONE",
-                    "THE LEVEL OF WATER SEAL BAG SHOULD ALWAYS BE KEPT BELOW THE LEVEL OF CHEST"
+                    "SpO2 of the patient has to be monitored throughout the procedure and patient is kept under the oxygen support",
+                    "Lower end of the tube should be ensured clamping",
+                    "While introducing the tube after dissection it should be ensured that tube did not go to the subcutaneous plane, also the eye opening of tube should be made sure within the thoracic cavity",
+                    "While suturing the position of the tube should not go down as usually the assistant pulls it down",
+                    "In hemothorax, if output >1500 ml is indication for thoracotomy ",
+                    "Post tube insertion chest xray pa view has to be done",
+                    "The level of water seal bag should always be kept below the level of chest"
                   ]
     },
     {
@@ -43,9 +43,9 @@ const testimonials = [
       name: "APPENDECTONY",
       image: Appendix,
       text: "Diagnosing a case of appendectomy is very crucial, needs to be confirmed either clinically or through investigations (WBC count, USG).",
-      instrument:["Artery Forceps (CURVED/ STRAIGHT)", "Toothed Forceps", "Needle holder", "Langenberg retractors", "Blade", "Alley's forceps", "Babcock forceps", "Scissors"],
+      instrument:["Artery forceps (curved / straight)", "Toothed forceps", "Needle holder", "Langenberg retractors", "Blade", "Alley's forceps", "Babcock forceps", "Scissors"],
       position: "Supine"
-,      procedure:[      
+,     procedure:[      
                   "Anaesthesia: General/Spinal",
                   "Paint and draped with povidone iodine to ensure the aseptic precautions around the surgical site",
                   "Incision: McBurney point has to be identified, the junction of lateral one third and medial two third of the right spino-umbilical line. Incision is made perpendicular to the right spino umbilical line at the McBurney point.",
@@ -71,7 +71,7 @@ const testimonials = [
       name: "CLASSICAL AND MODIFIED GRAHAM PATCH",
       image: Graham,
       text: "An emergency procedure which necessitates a proper preop resuscitation, and immediate surgical intervention.",     
-      instrument:["Artery Forceps", "Toothed Forceps", "Alley Forceps", "Zerney RETRACTORS", "DAEVERS RETRACTORS", "NEEDLE HOLDER",  "Scissors"],
+      instrument:["Artery forceps", "Toothed forceps", "Alley forceps", "Zerney retractors", "Daevers retractors", "Needle holder",  "Scissors"],
       procedure:[
                   "Paint and draped with povidone iodine to ensure the aseptic precautions around the surgical site",
                   "Midline incision is given by palpating xiphisternum above and pubic symphysis below to mark the midline",
@@ -85,10 +85,10 @@ const testimonials = [
                   "Skin closed"
                 ],
       precaution: [
-                    "ALWAYS EXPLORE THE BOWEL COMPLETELY IN CASE OF THE PERFORATION EVEN AFTER IDENTIFYING ONE INITIALLY",
-                    "THE EDGES OF PERFORATED SITES CAN EASILY GIVE UP WHILE TAKING A THROW CARE SHOULD BE TAKEN FOR PROPER DEPTH AND TENSION",
-                    "OMENTUM USED FOR PLACING OVER THE SUTURES, NEEDS TO BE FRESHENED IF ASSOCIATED WITH FLAKES",
-                    "POST OPERATIVELY PATIENTS HAS TO BE STARTED WITH A H PYLORI REGIMEN "
+                    "Always explore the bowel completely in case of the perforation even after identifying one initially",
+                    "The edges of perforated sites can easily give up while taking a throw care should be taken for proper depth and tension",
+                    "Omentum used for placing over the sutures, needs to be freshened if associated with flakes",
+                    "Post operatively patients has to be started with a h pylori regimen "
                   ]
     },
     {
@@ -97,9 +97,9 @@ const testimonials = [
       name: " HERNIA REPAIR",
       image: Hernia,
       text: "Direct and indirect inguinal hernia has different operative technique; to understand the surgery one has to understand the basics of origin of hernia in both the component.",
-      instrument:["Artery Forceps", "Toothed Forceps", "Alley's forceps", "Langenberg retractors", "Scissors"],
+      instrument:["Artery forceps", "Toothed forceps", "Alley's forceps", "Langenberg retractors", "Scissors"],
       procedure:[
-                  "INDIRECT INGUINAL HERNIA: LICHENTENSTEIN TENSION FREE MESH HERNIOPLASTY",          
+                  "Indirect inguinal hernia: lichentenstein tension free mesh hernioplasty",          
                   "Paint and draped with povidone iodine to ensure the aseptic precautions around the surgical site",
                   "Incision: we need to palpate the pubic tubercle first; the line of incision can be made 1 cm above and parallel to the inguinal ligament extending from pubic tubercle till the mid inguinal point.",
                   "After skin, camper's fascia and scarpa's fascia needs to be cut followed by the visualising the external oblique aponeurosis which appears white with fiberous pattern",
@@ -124,10 +124,10 @@ const testimonials = [
                   "Layers are closed, haemostasis ensured"
                 ],
       precaution: [
-                    "CARE TO BE TAKEN WHILE SEPARTING CORD AS ILIOHYPOGASTRIC NERVE IS ENCOUNTERED ABOVE AND MEDIALLY, ILIOINGUINAL NERVE IS ENCOUNTERED IN THE CANAL JUST OUTSIDE THE CORD, GENITOFEMORAL NERVE THROUGH THE CORD",
-                    "DURING THE EXTERNAL OBLIQUE APONEUROSIS LEAVES SEPARATION WITH SWAB, THE EXTENT OF LEAVES SHOULD BE TILL WE SEE CONJOINT TENDON ABOVE AND INGUINAL LIGAMENT BELOW",
-                    "NO TIGHTENING OF THROWS WHILE DOING THE DARNING REPAIR",
-                    "WHILE DOING HERNIOTOMY, SAC SHOULD BE ENSURED THAT CONTENT IS REDUCED PROPERLY BEFORE TRANSFIXATION"
+                    "Care to be taken while separting cord as iliohypogastric nerve is encountered above and medially, ilioinguinal nerve is encountered in the canal just outside the cord, genitofemoral nerve through the cord",
+                    "During the external oblique aponeurosis leaves separation with swab, the extent of leaves should be till we see conjoint tendon above and inguinal ligament below",
+                    "No tightening of throws while doing the darning repair",
+                    "While doing herniotomy, sac should be ensured that content is reduced properly before transfixation"
                   ]
     },
     {
@@ -136,7 +136,7 @@ const testimonials = [
       name: "STOMA",
       image: Stoma,
       text: "Ileostomy and colostomy, although having similar technique, etiologies widely differs Considering the technique its broadly comes into two categories as loop and end, but as far as the marking the site is concerned it its similar ",
-      instrument:["Artery Forceps", "Toothed Forceps", "Alley's forceps", "Langenberg retractors", "Scissors", "Needle holders"],
+      instrument:["Artery forceps", "Toothed forceps", "Alley's forceps", "Langenberg retractors", "Scissors", "Needle holders"],
       procedure:[
                   "Marking the site of stoma is the crucial step, depending on the aetiology, it needs to be decided either right or left side",
                   "Stoma should be placed within the extent of rectus, i.e. one third from midline, then a line drawn between spino-umblical.",
@@ -156,7 +156,7 @@ const testimonials = [
                     "RL is contraindicated for the patient came with electric burn",
                     "RL is contraindicated for the patient came with kidney injury",
                     "NS is key fluid for the diabetic ketoacidosis patient",
-                    "NS is key fluid for the Gastric outlet obstruction patient",
+                    "NS is key fluid for the gastric outlet obstruction patient",
                     "DNS/D10 is key fluid for the patient with Jaundice",
                     "D25 is key fluid for hypoglycaemic patients"
                   ],
@@ -164,7 +164,7 @@ const testimonials = [
                     "For a patient requiring maintenance fluid, is arbitrated with input and urine output charting, and 100-50-20 rule (100ml/kg for first 10kg, 50ml/kg for second 10kg, 20ml/kg for the remaining)",
                     "Post operative patient whose weight is 75kg necessitating maintenance fluid is calculated as following 10*100=1000; 10*20=200; 55*20=1100, summing up to 2300ml/day which is around 5 fluids approx.",
                     "In a case of metabolic acidosis in a sepsis patient with lactic acidosis, normal LFT, RL is advised for the patient for better outcome owing to the bicarbonate conversion.",
-                    ". In an ongoing deficit as in dehydration, fluid is calculated as body weight * percentage of dehydration",
+                    "In an ongoing deficit as in dehydration, fluid is calculated as body weight * percentage of dehydration",
                     "In a case of bicarbonate deficit in metabolic acidosis, a formula is used to advise sodium bicarbonate is 0.5*body weight (desired bicarbonate - actual bicarbonate)"
                   ]
                   
@@ -175,11 +175,11 @@ const testimonials = [
       name: "CIRCUMCISION",
       image: circumcision,
       text: "A simple procedure, necessitating a precise surgical technique.",
-      indication: ["PHIMOSIS","PARAPHIMOSIS", "BALAINITIS", "BALANOPOSTHITIS", "MALIGNANCY INVOLVING THE PREPUCE OR GLANS"],
-      instrument: ["STRAIGHT ARTERY FORCEPS", "SCISSORS", "PLAIN FORCEPS", "NEEDLE HOLDER"],
+      indication: ["Phimosis","Paraphimosis", "Balainitis", "Balanoposthitis", "Malignancy involving the prepuce or glans"],
+      instrument: ["Straight artery forceps", "Scissors", "Plain forceps", "Needle holder"],
       position: "Supine",
       procedure:[
-                  "PREPARATION OF LOCAL ANAESTHESIA FOR DORSAL PENILE NERVE BLOCK: 5ML of Xylocaine 1% + 5ML of Bupivacaine 0.5%",   
+                  "Prepration of local anaesthesia for dorsal penile nerve block: 5ML of Xylocaine 1% + 5ML of Bupivacaine 0.5%",   
                   "It is either given as a ring block at base of the penis or dorsal penile nerve block at the level of pubic symphysis or combination of both The local anaesthesia is initially injected at the base of penis dorsally, then retrieve it slightly and inject it to the lateral sides. Before injecting aspirating, them to ensure there is no flashback indicating the needle inside an artery/vein",
                   "Paint and draped with povidone iodine to ensure the aseptic precautions around the surgical site",
                   "The skin over the penis is lifted up after dissecting with artery forceps if any stricture",
@@ -189,9 +189,9 @@ const testimonials = [
                   "Haemostasis ensured"
                 ],
       precaution: [
-                    "CARE SHOULD BE TAKEN WHILE PREPARING LOCAL ANESTHESIA, ADRENALINE COMBINATION IS STRICTLY CONTRADINDICATED.",
-                    "FRENULAR ARTERY NEED TO BE TIED BEFORE CUTTING IT DURING CIRCUMFERENTIAL EXTENSION",
-                    "HEMOSTASIS SHOULD BE ENSURED BEFORE DRESSING"
+                    "Care should be taken while preparing local anesthesia, adrenaline combination is strictly contradindicated.",
+                    "Frenular artery need to be tied before cutting it during circumferential extension",
+                    "Hemostasis should be ensured before dressing"
                   ]
     },
     {
@@ -200,13 +200,13 @@ const testimonials = [
       name: "JABOULAY'S PROCEDURE",
       image: jabuolays,
       text: "This is an exciting procedure for both first year resident and interns. Indicated in patients with hydrocele often done under local anaesthesia. In bilateral hydrocele spinal anaesthesia can be considered.",
-      instrument: ["BLADE 11/22", "ARTERY FORCEPS", "TOOTHED FORCEPS", "MOSQUITO FORCEPS", "SCISSORS", "SYRINGE 10ML", "NEEDLE HOLDER", "KIDNEY TRAY"],
+      instrument: ["Blade 11/22", "Artery forceps", "Toothed forceps", "Mosquito forceps", "Scissors", "Syringe 10ML", "Needle holder", "Kidney tray"],
       position: "Supine",
       procedure: [
-                  "Preparation of local anaesthesia for CORD BLOCK: 5ML of Xylocaine 1% + 5ML of Bupivacaine 0.5%.",
+                  "Preparation of local anaesthesia for cord block: 5ML of Xylocaine 1% + 5ML of bupivacaine 0.5%.",
                   "Paint and draped with povidone iodine solution of the surgical site to ensure aseptic precautions.",
                   "Site of incision: horizontal incision, perpendicular to median raphe of size 5-6cm in the most fluctuant part of scrotum after properly kept in position by the assistant",
-                  "It is important to know the layers we are going to dissect, layers of scrotum from above to below is described as SKIN, DARTOS FASCIA, EXTERNAL ERMATIC FASCIA, CREMASTIC, INTERNAL SPECMATIC FASCIA, TUNICA VAGINALIS (PARIETAL & VISCERAL), TUNICAL ALBUGINEA",
+                  "It is important to know the layers we are going to dissect, layers of scrotum from above to below is described as skin, dartos fascia, external ermatic fascia, cremastic internal specmatic fascia, tunica vaginalis (parietal & visceral), tunical albuginea",
                   "The final plane of dissection is between the parietal and visceral layer of Tunica vaginalis which is embryologically a peritoneum extent for descent of testes from abdomen. This is identified with its Bluish appearance",
                   "Once the parietal layer is visible, the sac is separated from all sides. Any fringes attached are precisely separated in such way that sac is delivered outside",
                   "In the most fluctuant point, away from the testes, stab incision is given with guarded precaution. The fluid is drained. Sac is opened along the incision point to evert it. Once everted, it is closed continuously with a Catgut suture (round body) leaving one finger space medially. ",
@@ -214,9 +214,9 @@ const testimonials = [
                   "Scrotal support has to be given"
                 ],
       precaution:[ 
-                  "ONCE SKIN IS CUT, LOOK FOR THE VESSELS CROSSING THE DARTOS FASCIA TO AVOID BLEEDING",
-                  "DISSECTION SHOULD BE PRECISE, PRECAUTIONS TO BE TAKEN FOR DELIVERING THE SAC IN SITU OUTSIDE",
-                  "HEMOSTASIS SHOULD BE ENSURED BEFORE CLOSING THE LAYERS AS THEY ARE MORE PRONE FOR HEMATOMA FORMATION IF LEFT UN ATTENDED."
+                  "Once skin is cut, look for the vessels crossing the dartos fascia to avoid bleeding",
+                  "Dissection should be precise, precautions to be taken for delivering the sac in situ outside",
+                  "Hemostasis should be ensured before closing the layers as they are more prone for hematoma formation if left un attended."
                 ]
     },
     {
@@ -249,10 +249,10 @@ const testimonials = [
                   "Scope is retrieved back to look for any findings "
                 ],
       precaution:[ 
-                  "LOCAL ANAESTHESIA IS SPRAYED BEFORE THE PROCEDURE",
-                  "NPO, 3 HOURS FOR LIQUID, 6 HOURS FOR SEMISOLID, 8 HOURS FOR HEAVY MEALS (ROLE OF GASTRIC LAVAGE IS CONTROVERSIAL, HENCE INDVIDUALISED)",
-                  "SCOPE HAS TO BE HOLD ATLEAST 5 CM AWAY FROM THE MOUTH LEVEL TO NAVIGATE PROPERLY",
-                  "INJ BACLOFEN, ERYTHROMYCIN, METOCLOPROMIDE HAS ITS ROLE IN ANTI MOTILITY ACTION WHILE DOING THE ENDOSCOPY"
+                  "Local anaesthesia is sprayed before the procedure",
+                  "NPO, 3 hours for liquid, 6 hours for semisolid, 8 hours for heavy meals (role of gastric lavage is controversial, hence indvidualised)",
+                  "Scope has to be hold atleast 5 cm away from the mouth level to navigate properly",
+                  "INJ baclofen, erythromycin, metoclopromide has its role in anti motility action while doing the endoscopy"
                 ]
     }
   ];

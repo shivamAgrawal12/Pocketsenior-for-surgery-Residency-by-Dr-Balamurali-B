@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import testimonialsData from "./testimonials";
-import wrong from "../assets/heartbeat.gif";
+import wrong from "../assets/break.gif";
 import "./Style.css";
 
 const Chapter = () => {
@@ -21,8 +21,8 @@ const Chapter = () => {
 
   return (
     <div id="chapter-detail">
+      <h1 className="chapter-name"><span id="about-heading-span">~</span> {chapter.name}<span id="about-heading-span"> ~</span></h1>
       <div className="chapter-info">
-        <h1 className="chapter-name">{chapter.name}</h1>
 
         {chapter.image && (
           <img src={chapter.image} alt={chapter.name} className="chapter-image" />
@@ -69,7 +69,6 @@ const Chapter = () => {
             </ul>
           </div>
         )}
-
         {chapter.position && <p className="chapter-position">{chapter.position}</p>}
       </div>
     </div>

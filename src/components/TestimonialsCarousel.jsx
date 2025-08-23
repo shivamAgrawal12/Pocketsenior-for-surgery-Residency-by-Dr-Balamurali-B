@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate
 import { Carousel } from "react-responsive-carousel";
+import right from '../assets/right.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Style.css";
 import testimonialsData from "./testimonials";
@@ -11,18 +12,26 @@ const TestimonialsCarousel = ({ testimonials = [] }) => {
   const navigate = useNavigate(); 
 
   const handleResize = useCallback(() => {
-    if (window.innerWidth <= 675) {
+    if (window.innerWidth <= 500) { 
       setSlidePercentage(100);
-    } else if (window.innerWidth <= 835) {
-      setSlidePercentage(75);
-    } else if (window.innerWidth <= 990) {
+    } else if (window.innerWidth <= 600) {
+      setSlidePercentage(70);
+    } else if (window.innerWidth <= 705) {
       setSlidePercentage(60);
-    } else if (window.innerWidth <= 1550) {
+    } else if (window.innerWidth <= 795) {
+      setSlidePercentage(55);
+    } else if (window.innerWidth <= 940) {
       setSlidePercentage(50);
+    } else if (window.innerWidth <= 1060) {
+      setSlidePercentage(46);
+    } else if (window.innerWidth <= 1300) {
+      setSlidePercentage(42);
+    } else if (window.innerWidth <= 1560) {
+      setSlidePercentage(40);
     } else if (window.innerWidth <= 1750) {
-      setSlidePercentage(45);
-    } else {
       setSlidePercentage(35);
+    } else {
+      setSlidePercentage(30);
     }
   }, []);
 
@@ -69,10 +78,12 @@ const TestimonialsCarousel = ({ testimonials = [] }) => {
               {testimonial.image && (
                 <img className="img-circle" src={testimonial.image} alt={testimonial.name || "User"} />
               )}
-              <h1 className="chap-num">{testimonial.chapter}</h1>
               <h1 className="chap-name">{testimonial.name}</h1>
               <p className="chap-des">{testimonial.text}</p>
-              <div className="chap-button">Know More</div>
+              <div className="chap-button">
+                {testimonial.chapter}
+                <img src={right} alt="Right Arrow" className="chap-num" />
+              </div>
             </div>
           </div>
         ))}

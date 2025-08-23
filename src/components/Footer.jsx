@@ -19,6 +19,10 @@ const Footer = () => {
           <img src={smalllogo} alt="Logo" id="smalllogo" />
         </div>
 
+      <div className="footer-bottom">
+        <p>© 2025. All rights reserved.</p>
+      </div>
+
         <div className="footer-social">
           <a href="https://www.instagram.com/dr.balamuralikrishnan/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
@@ -30,12 +34,7 @@ const Footer = () => {
             <FaInstagram />
           </a>
         </div>
-      </div>
-
-      {/* Bottom Section */}
-      <div className="footer-bottom">
-        <p>© 2025. All rights reserved.</p>
-      </div>
+      </div>      
     </footer>
   );
 };

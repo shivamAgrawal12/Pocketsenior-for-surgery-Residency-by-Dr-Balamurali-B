@@ -1,6 +1,6 @@
 import React from 'react';
 import person from '../assets/profile.jpeg';
-import backabout from '../assets/background.gif';
+import backabout from '../assets/heartbeat.gif';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
               <div class="profile-pic">
                 <img src={person} alt='about'/>
               </div>
-              <h1 class="profile-name">~ Dr. BALAMURALI BALAKRISHNAN</h1>
+              <h1 class="profile-name">~ Dr. Balamurali Balakrishna</h1>
             </div>            
           </div>
           <p id='about-introduction'>The path to become a Surgeon is very tedious. The journey started from the
@@ -30,7 +30,7 @@ const About = () => {
             various super specialties have emerged making the training programs lengthier.
             After 3 years of postgraduation, again an entrance examination has to be taken
             up to choose super specialty which again termed for another 3 years. This partly
-            sums up the journey of an aspiring surgeon to a period of 10-12 years.<br/><br/>
+            sums up the journey of an aspiring surgeon to a period of 10-12 years.<br/>
             Being a Surgical trainee myself, I had encountered various struggles throughout
             the last three years. Mostly I had to depend on my seniors to tackle them which
             helped me in enduring the journey. The idea of making a book with ideas to make
@@ -38,7 +38,7 @@ const About = () => {
             countries and calls me when encountering struggles in their residency. And this
             was due to lack of communication, nonavailability of seniors in most places. This
             book will aim in providing the hacks and simplified surgical technique in a
-            trainee point of view.<br/><br/>
+            trainee point of view.<br/>
             The field of surgery is an ever-evolving one, and there is a need for a guidance
             that is acceptable and dynamic to keep pace with the rapidly changing knowledge
             base and technology. As a third year surgical trainee, I hope through this book i

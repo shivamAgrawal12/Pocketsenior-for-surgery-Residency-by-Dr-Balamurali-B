@@ -3,21 +3,22 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  --first-color: #0288d1;
-  --second-color: #29b6f6;
-  --third-color: #4fc3f7;
-  --forth-color: #81d4fa;
-  --text-color: #fff;
+  --first-color: #fffbf3;
+  --second-color: #f18989;
+  --text-color: #000;
   --text-family: Roboto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   padding: 0;
   margin: 0;
-  padding-top: 6rem;
+  padding-top: 5rem;
   height: 100vh;
   scroll-behavior: smooth;
   overflow-y: auto;
+  overflow-x: hidden;
   position: relative;
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>❤️</text></svg>") 8 8, auto;
   /* cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 24 24'><text y='20' font-size='16'>💉</text></svg>") 8 8, auto; */
@@ -30,9 +31,10 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('assets/body.jpg') no-repeat center center fixed;
+  background-color: #000;
+  /* background: url('assets/body.jpg') no-repeat center center fixed; */
   background-size: cover;
-  opacity: 0.4;
+  /* opacity: 0.4; */
   z-index: -1;
 }
 

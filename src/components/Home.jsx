@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Style.css";
-import chap from '../assets/chapter.png';
-import heart from '../assets/heart.png'; // Ensure this file exists
+import chap from '../assets/doctor.gif';
+import heart from '../assets/contacts.gif'; // Ensure this file exists
 import TestimonialsCarousel from './TestimonialsCarousel';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import emailjs from "emailjs-com";
@@ -64,10 +64,11 @@ const Home = () => {
             Here, you'll find step-by-step techniques, tips, and practical guidance to support
             you through your residency, helping you succeed in your surgical training and career.
           </p>
-          <h3 id="home-doctor">- Dr. BALAMURALI BALAKRISHNAN</h3>
+          <h3 id="home-doctor">- Dr. Balamurali Balakrishan</h3>
           <div id="home-describe-div">
+            <div className="ribbon">Doctor</div>
             <p id="home-role">
-              MS General Surgery <br/>Resident ~ Third year, RIMS Ranchi <br/>From Vellore, Tamilnadu
+              MS General Surgery <br/>Resident-Third year, (RIMS Ranchi) <br/>From Vellore, Tamilnadu
             </p>
           </div>
         </div>
@@ -81,18 +82,21 @@ const Home = () => {
         <div id="chapter-intro">
           <img src={chap} alt="Chapter" id="chapter-pic" />
           <p id="chapter-title">
-            This guide covers a series of essential surgical procedures commonly
-            encountered during a residency. Each chapter provides a step-by-step approach
-            to key surgeries, including ICD insertion, Jabouley's procedure, circumcision,
-            appendectomy, hernia repair, Graham patch repair, and stoma site marking. With a
-            focus on proper technique, necessary instruments, and important precautions, this
-            resource aims to help residents develop the skills needed to perform these procedures
-            effectively and safely.
+            This guide presents a curated collection of fundamental surgical procedures that residents are 
+            likely to encounter throughout their training. Each chapter walks through a specific surgery with 
+            a clear, step-by-step approach—covering essential techniques such as Intercostal Drain (ICD) insertion, 
+            Jabouley's procedure for varicocele, circumcision, appendectomy, hernia repair, Graham patch repair for 
+            perforated ulcers, and stoma site marking. In addition to outlining procedural steps, the guide emphasizes 
+            the selection and handling of instruments, adherence to surgical safety protocols, and awareness of common 
+            pitfalls. Designed to serve as a practical reference, it supports residents in building confidence, precision, 
+            and competence in the operating room.
           </p>
         </div>
       </div>
-      
+
       <TestimonialsCarousel />
+      
+      
 
       {/************************************** Contact Form Section *******************************************/}
       <div className="section" id="reachout-section">
