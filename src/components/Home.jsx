@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import "./Style.css";
-import chap from '../assets/doctor.gif';
+import chap from '../assets/about.gif';
 import heart from '../assets/contacts.gif'; // Ensure this file exists
 import TestimonialsCarousel from './TestimonialsCarousel';
+import Cases from './Cases';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
@@ -64,11 +65,11 @@ const Home = () => {
             Here, you'll find step-by-step techniques, tips, and practical guidance to support
             you through your residency, helping you succeed in your surgical training and career.
           </p>
-          <h3 id="home-doctor">- Dr. Balamurali Balakrishan</h3>
+          <h3 id="home-doctor">- Dr. Balamurali Balakrishnan</h3>
           <div id="home-describe-div">
             <div className="ribbon">Doctor</div>
             <p id="home-role">
-              MS General Surgery <br/>Resident-Third year, (RIMS Ranchi) <br/>From Vellore, Tamilnadu
+              MS General Surgery <br/>Third year, (RIMS Ranchi) <br/> MBBS - (TMCH, Chennai) <br/> From Vellore, Tamilnadu
             </p>
           </div>
         </div>
@@ -93,7 +94,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-
+      {/* <Cases /> */}
       <TestimonialsCarousel />
       
       

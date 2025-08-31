@@ -210,12 +210,12 @@
   /********************************** Home ******************************************/
   #home-section {
     max-width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     background-image: url("../assets/home.gif");
     align-items: center;
-    padding: 0 1rem;
+    padding: 1rem;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -314,7 +314,7 @@
   /* Responsive Design */
   @media (max-width: 1300px) {
     #home-content{
-      width: 90%;
+      width: 88%;
       margin-top: -10%;
     }
      #home-title {
@@ -337,13 +337,7 @@
       font-size: 1rem;
     }
   } 
-  
-  @media (max-width: 940px) {
-    #home-content {
-      width: 88%;
-    }
-  }
-
+ 
    @media (max-width: 830px) {
      #home-title {
       font-size: 2.75rem;
@@ -374,10 +368,7 @@
   } 
   
   @media (max-width: 775px) {
-    #home-content {
-      max-width: 85%;
-    }
-  
+   
     #home-title {
       font-size: 2.35rem;
     }
@@ -398,7 +389,8 @@
   
   @media (max-width: 550px) {
     #home-content {
-      max-width: 94%;
+      width: 94%;
+      padding: 1rem;
     }
   
     #home-title {
@@ -416,9 +408,7 @@
       width: 98%;
       margin-bottom: 3%;
     }  
-    #home-describe-div {
-      width: 90%;
-    }
+   
     #home-content {
       gap: 1.25em;
     }
@@ -429,7 +419,7 @@
 
    @media (max-width: 400px) {
     #home-content {
-      margin: 4% 0;
+      margin: 2% 0;
     }  
     #home-title {
       font-size: 1.6rem;
@@ -722,10 +712,9 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    gap: 3rem;
+    gap: 2rem;
     background: linear-gradient(145deg, #e0e0e0, #ffffff);
     border-radius: 10px;
-    border: 2px solid var(--second-color);
     box-shadow:
       0 8px 15px rgba(0, 0, 0, 0.3),  /* bottom shadow */
       inset 0 1px 0 rgba(255, 255, 255, 0.6),  /* top inner light */
@@ -744,11 +733,10 @@
   
   #chapter-pic {
     width: auto;
-    height: 100%;
-    max-width: 20rem;
-    height: 20rem;
+    /* max-width: 20rem; */
     object-fit: cover;
-    border-radius: 1.5em;  
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
   
   #chapter-title {
@@ -759,7 +747,7 @@
     margin-right: 2rem;
   }
   
-  @media (max-width: 1400px) {
+  @media (max-width: 1500px) {
     #chapter-title {
       font-size: 1.25rem;
     }
@@ -782,13 +770,18 @@
       flex-direction: column;
       border: none;
       gap: 0rem;
-      padding-left: 1.2rem;
     }
   
     #chapter-pic {
-      border-radius: 15rem;
-      height: 16rem;
-      margin-top: 1rem;
+      object-fit: cover;
+      height: 20rem;
+      width: 100%;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 10px;
+    }
+
+    #chapter-title {
+      margin: 1.5rem 1rem 2rem 1rem;
     }
   }
   
@@ -796,10 +789,6 @@
     #chap-intro, #contain {
       flex-direction: column;
       gap: 1.5em;
-    }
-    
-    #chapter-pic {
-      max-width: 250px;
     }
   }
 

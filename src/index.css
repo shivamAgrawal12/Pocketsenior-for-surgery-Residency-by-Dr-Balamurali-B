@@ -6,7 +6,7 @@
   --first-color: #fffbf3;
   --second-color: #f18989;
   --text-color: #000;
-  --text-family: Roboto;
+  --text-family: system-ui;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -16,6 +16,7 @@ body {
   margin: 0;
   padding-top: 5rem;
   height: 100vh;
+  font-family: system-ui;
   scroll-behavior: smooth;
   overflow-y: auto;
   overflow-x: hidden;
