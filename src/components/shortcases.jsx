@@ -88,8 +88,8 @@ const shortcasestudy = [
                 "Scar present in left iliac fossa over the abdominal drain site",
                 "No venous engorgement in seen"
             ],
-        percusssion:"Tympanic note presents over the abdomen",
-        auscultation:"Normal bowel sound is present",
+        percusssion:["Tympanic note presents over the abdomen"],
+        auscultation:["Normal bowel sound is present"],
         dre: [
                 "Normal anal tone",
                 "A 40 years old male with 2 exteriorised bowel loops protruding with one loop about 4cm above skin level and another 2cm above in right iliac fossa and with semisolid content",
@@ -107,7 +107,7 @@ const shortcasestudy = [
                 "He was resuscitated and evaluated and diagnosed with haemothorax on the right side along with 8 to 10th rib fracture",
                 "He was managed by inserting intercostal drain at 5th intercostal space and was shifted to ot for the repair for diaphragmatic injury"
             ],
-        local_examination: "performed in the supine position with proper exposure of chest and abdomen",
+        local_examination: ["performed in the supine position with proper exposure of chest and abdomen"],
         inspection: [
                 "Chest wall is symmetrical and elliptical in shape",
                 "Respiratory rate is 18 per minute and is abdominothoracic",

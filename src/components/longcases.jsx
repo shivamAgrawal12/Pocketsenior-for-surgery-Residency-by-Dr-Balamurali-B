@@ -610,7 +610,7 @@ const longcasestudy = [
                 "Dullness of lump is distinct from the liver dullness",
                 "No evidence of free fluid or succession splash"
         ],
-        auscultation:"Normal bowel sound present",
+        auscultation:["Normal bowel sound present"],
         summary:[
                 "67 years old male who is chronic alcoholic presented with severe pain in epigastric region of the abdomen for the past 8 months and a lump over the abdomen for the last 2 months which on examination palpated as globular cystic intraabdominal lump of size 8*10cm with smooth surface and well-defined margin not moving with respiration proceeding towards my provisional diagnosis of pseudocyst of pancreas following alcohol induced acute pancreatitis without any complication",
             ],
