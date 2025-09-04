@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className="section" id="about-section">
-        <h1 id='about-heading'><span id='about-heading-span'>~</span> Introduction to the <span id='about-heading-span'>Surgical Residency</span> Journey <span id='about-heading-span'>~</span></h1>
+        <h1 id='about-heading'><span id='about-heading-span'>~</span> Foundations of <span id='about-heading-span'>Surgical</span> Residency <span id='about-heading-span'>~</span></h1>
         <div id='about-contain'>
           <div class="profile-header">   
             <div class="cover-photo">
@@ -17,7 +17,7 @@ const About = () => {
               <div class="profile-pic">
                 <img src={person} alt='about'/>
               </div>
-              <h1 class="profile-name">~ Dr. Balamurali Balakrishnan</h1>
+              <h1 class="profile-name">Dr. Balamurali Balakrishnan</h1>
             </div>            
           </div>
           <p id='about-introduction'>The path to become a Surgeon is very tedious. 

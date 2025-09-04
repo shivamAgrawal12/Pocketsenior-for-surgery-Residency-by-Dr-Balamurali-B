@@ -3,7 +3,8 @@ import "./Style.css";
 import chap from '../assets/about.gif';
 import heart from '../assets/contacts.gif'; // Ensure this file exists
 import TestimonialsCarousel from './TestimonialsCarousel';
-import Cases from './Cases';
+import LoncasesDataCarousel from './LongcasesCarousel';
+import ShortcasesDataCarousel from './ShortcasesCarousal';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import emailjs from "emailjs-com";
 
@@ -65,7 +66,7 @@ const Home = () => {
             Here, you'll find step-by-step techniques, tips, and practical guidance to support
             you through your residency, helping you succeed in your surgical training and career.
           </p>
-          <h3 id="home-doctor">- Dr. Balamurali Balakrishnan</h3>
+          <h3 id="home-doctor">Dr. Balamurali Balakrishnan</h3>
           <div id="home-describe-div">
             <div className="ribbon">Doctor</div>
             <p id="home-role">
@@ -86,7 +87,7 @@ const Home = () => {
             This guide presents a curated collection of fundamental surgical procedures that residents are 
             likely to encounter throughout their training. Each chapter walks through a specific surgery with 
             a clear, step-by-step approach—covering essential techniques such as Intercostal Drain (ICD) insertion, 
-            Jabouley's procedure for varicocele, circumcision, appendectomy, hernia repair, Graham patch repair for 
+            Jaboulay's procedure for hydrocele, circumcision, appendectomy, hernia repair, Graham patch repair for 
             perforated ulcers, and stoma site marking. In addition to outlining procedural steps, the guide emphasizes 
             the selection and handling of instruments, adherence to surgical safety protocols, and awareness of common 
             pitfalls. Designed to serve as a practical reference, it supports residents in building confidence, precision, 
@@ -96,8 +97,8 @@ const Home = () => {
       </div>
       {/* <Cases /> */}
       <TestimonialsCarousel />
-      
-      
+      <LoncasesDataCarousel />    
+      <ShortcasesDataCarousel />   
 
       {/************************************** Contact Form Section *******************************************/}
       <div className="section" id="reachout-section">

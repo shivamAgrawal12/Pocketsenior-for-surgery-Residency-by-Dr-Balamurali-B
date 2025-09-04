@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home"; 
 import About from "./components/About";
 import Chapter from "./components/Chapter";
+import Longcasechapter from "./components/Longcasechapter";
+import Shortcaseschapter from "./components/Shortcaseschapter";
 import Footer from "./components/Footer";
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/chapter/:id" element={<Chapter />} />
+        <Route path="/Longcasechapter/:id" element={<Longcasechapter />} />
+        <Route path="/Shortcaseschapter/:id" element={<Shortcaseschapter />} />
       </Routes>
       <Footer />
     </Router>

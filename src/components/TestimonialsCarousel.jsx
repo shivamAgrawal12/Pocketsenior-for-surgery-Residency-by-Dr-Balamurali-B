@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate
 import { Carousel } from "react-responsive-carousel";
-import right from '../assets/right.png';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Style.css";
 import testimonialsData from "./testimonials";
@@ -9,22 +8,26 @@ import testimonialsData from "./testimonials";
 const TestimonialsCarousel = ({ testimonials = [] }) => {
   const [visibleTestimonials, setVisibleTestimonials] = useState([]);
   const [slidePercentage, setSlidePercentage] = useState(40);
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
   const handleResize = useCallback(() => {
-    if (window.innerWidth <= 500) { 
+    if (window.innerWidth <= 570) { 
       setSlidePercentage(100);
-    } else if (window.innerWidth <= 600) {
+    } else if (window.innerWidth <= 630) {
+      setSlidePercentage(78);
+    } else if (window.innerWidth <= 680) {
       setSlidePercentage(70);
-    } else if (window.innerWidth <= 705) {
+    }  else if (window.innerWidth <= 730) {
+      setSlidePercentage(65);
+    } else if (window.innerWidth <= 805) {
       setSlidePercentage(60);
-    } else if (window.innerWidth <= 795) {
+    } else if (window.innerWidth <= 880) {
       setSlidePercentage(55);
-    } else if (window.innerWidth <= 940) {
+    } else if (window.innerWidth <= 960) {
       setSlidePercentage(50);
     } else if (window.innerWidth <= 1060) {
       setSlidePercentage(46);
-    } else if (window.innerWidth <= 1300) {
+    } else if (window.innerWidth <= 1350) {
       setSlidePercentage(42);
     } else if (window.innerWidth <= 1560) {
       setSlidePercentage(40);
@@ -55,7 +58,8 @@ const TestimonialsCarousel = ({ testimonials = [] }) => {
   }
 
   return (
-    <div className="container-chap">
+    <div className="carousel-container">
+      <div className="container-chap">
       <Carousel
         showArrows
         showThumbs={false}
@@ -69,25 +73,19 @@ const TestimonialsCarousel = ({ testimonials = [] }) => {
         centerSlidePercentage={slidePercentage}
       >
         {visibleTestimonials.map((testimonial, index) => (
-          <div
-            className="testimonial-item"
+          <div className="shadow-effect"
             key={index}
-            onClick={() => handleNavigation(testimonial.chapterId)}
+              onClick={() => handleNavigation(testimonial.chapterId)}
           >
-            <div className="shadow-effect">
-              {testimonial.image && (
-                <img className="img-circle" src={testimonial.image} alt={testimonial.name || "User"} />
-              )}
-              <h1 className="chap-name">{testimonial.name}</h1>
-              <p className="chap-des">{testimonial.text}</p>
-              <div className="chap-button">
-                {testimonial.chapter}
-                <img src={right} alt="Right Arrow" className="chap-num" />
-              </div>
+            <div className="testimonial-item">
+              <p className="chap-name">{testimonial.name}</p>
             </div>
+            <img src={testimonial.image} alt={testimonial.name} className="chap-image"/>
+            <p className="chap-button">Know More →</p>
           </div>
         ))}
       </Carousel>
+      </div>
     </div>
   );
 };
